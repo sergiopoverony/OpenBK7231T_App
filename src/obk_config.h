@@ -95,9 +95,9 @@
 #define ENABLE_DRIVER_CHARTS					1
 #define ENABLE_MQTT								1
 #define ENABLE_DRIVER_SHT3X						1
-#define ENABLE_DRIVER_AHT2X						1
+//#define ENABLE_DRIVER_AHT2X						1
 #define ENABLE_TASMOTA_JSON						1
-#define ENABLE_DRIVER_DS1820					1
+//#define ENABLE_DRIVER_DS1820					1
 #define ENABLE_DRIVER_DHT						1
 #define ENABLE_NTP								1
 #define ENABLE_DRIVER_BMPI2C					1
@@ -338,10 +338,10 @@
 #endif
 
 #if (OBK_VARIANT == OBK_VARIANT_SENSORS)
-#define ENABLE_DRIVER_BMP280					1
-#define ENABLE_DRIVER_BMPI2C					1
+//#define ENABLE_DRIVER_BMP280					1
+//#define ENABLE_DRIVER_BMPI2C					1
 #define ENABLE_DRIVER_SHT3X						1
-#define ENABLE_DRIVER_DS1820_FULL				1
+//#define ENABLE_DRIVER_DS1820_FULL				1
 #endif
 
 #if (OBK_VARIANT == OBK_VARIANT_HLW8112)
