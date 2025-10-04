@@ -95,9 +95,10 @@
 #define ENABLE_DRIVER_CHARTS					1
 #define ENABLE_MQTT								1
 #define ENABLE_DRIVER_SHT3X						1
-//#define ENABLE_DRIVER_AHT2X						1
+#define ENABLE_DRIVER_AHT2X						1
 #define ENABLE_TASMOTA_JSON						1
-//#define ENABLE_DRIVER_DS1820					1
+#define ENABLE_DRIVER_DS1820					1
+#define ENABLE_DRIVER_SHT3X						1
 #define ENABLE_DRIVER_DHT						1
 #define ENABLE_NTP								1
 #define ENABLE_DRIVER_BMPI2C					1
@@ -353,7 +354,7 @@
 #endif
 
 #elif PLATFORM_LN882H
-
+#define ENABLE_DRIVER_SHT3X 1
 //#define ENABLE_SEND_POSTANDGET				1
 #define	ENABLE_HA_DISCOVERY						1
 #define ENABLE_MQTT								1
