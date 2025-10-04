@@ -4,16 +4,16 @@
 #ifndef OBK_CONFIG_H
 #define OBK_CONFIG_H
 
-#define OBK_VARIANT_DEFAULT						0
-#define OBK_VARIANT_BERRY						1
-#define OBK_VARIANT_TUYAMCU						2
-#define OBK_VARIANT_POWERMETERING				3
-#define OBK_VARIANT_IRREMOTEESP					4
+//#define OBK_VARIANT_DEFAULT						0
+//#define OBK_VARIANT_BERRY						1
+//#define OBK_VARIANT_TUYAMCU						2
+//#define OBK_VARIANT_POWERMETERING				3
+//#define OBK_VARIANT_IRREMOTEESP					4
 #define OBK_VARIANT_SENSORS						5
-#define OBK_VARIANT_HLW8112						6
-#define OBK_VARIANT_ESP2M						1
-#define OBK_VARIANT_ESP4M						2
-#define OBK_VARIANT_ESP2M_BERRY					3
+//#define OBK_VARIANT_HLW8112						6
+//#define OBK_VARIANT_ESP2M						1
+//#define OBK_VARIANT_ESP4M						2
+//#define OBK_VARIANT_ESP2M_BERRY					3
 
 // Starts with all driver flags undefined
 
